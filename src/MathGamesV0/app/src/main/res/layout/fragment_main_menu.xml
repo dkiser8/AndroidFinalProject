@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".FragmentMainMenu"
+    android:orientation="vertical"
+    >
+
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="@android:color/darker_gray" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/order_of_operations"
+            android:textColor="@android:color/holo_purple"
+            android:textSize="18sp" />
+
+        <Button
+            android:id="@+id/btnFor1a"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/hit_a_target" />
+
+        <Button
+            android:id="@+id/btnFor1b"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/maximize_target" />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="@android:color/darker_gray" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/practice"
+            android:textColor="@android:color/holo_purple"
+            android:textSize="18sp" />
+
+        <Button
+            android:id="@+id/btnFor2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/add_subtract_multiply_divide" />
+
+        <Button
+            android:id="@+id/btnFor3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/pre_polynomial_factoring" />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="@android:color/darker_gray" />
+
+
+</LinearLayout>

@@ -1,0 +1,46 @@
+<resources>
+    <string name="app_name">MathGamesV0</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="maximize_target">Maximize target</string>
+    <string name="hit_a_target">Hit a target</string>
+    <string name="order_of_operations">Order of Operations</string>
+    <string name="practice">Practice</string>
+    <string name="add_subtract_multiply_divide">Add/Subtract/Multiply/Divide</string>
+    <string name="pre_polynomial_factoring">Pre-Polynomial Factoring</string>
+    <string name="warnInterface1">must implement the GamePicker Interface</string>
+    <string name="btnerror">Error button Selection</string>
+    <string name="btnerror2">Error in button selection</string>
+    <string name="_4">4</string>
+    <string name="result">Result:</string>
+    <string name="target">Target:</string>
+    <string name="maxtarget">Max Target:</string>
+    <string name="plusSign">+</string>
+    <string name="minusSign">-</string>
+    <string name="multSign">*</string>
+    <string name="mult_sign">*</string>
+    <string name="divideSign">/</string>
+    <string name="caretSign">^</string>
+    <string name="equalsSign">=</string>
+    <string name="openParen">(</string>
+    <string name="space" />
+    <string name="closeParen">)</string>
+    <string name="operator_options">Operator Options</string>
+    <string name="add">Add</string>
+    <string name="subtract">Subtract</string>
+    <string name="multiply">Multiply</string>
+    <string name="divide">Divide</string>
+    <string name="minimum">Minimum:</string>
+    <string name="_12">-12</string>
+    <string name="maximum">Maximum:</string>
+    <string name="_12pos">12</string>
+    <string name="save">Save</string>
+    <string name="warn4">must implement the SetMax Interface</string>
+    <string name="submit_answer">Submit Answer</string>
+    <string name="correct_next_question">Correct! Next Question</string>
+    <string name="incorrect_try_again">Incorrect! Try Again</string>
+    <string name="cannot_divide_by_0">!Div0</string>
+    <string name="and">and</string>
+
+</resources>

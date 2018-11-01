@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <fragment
+        android:id="@+id/fragment"
+        android:name="com.example.danielkiser.mathgamesv0.FragmentMainMenu"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        />
+
+    <fragment
+        android:id="@+id/fragment0"
+        android:name="com.example.danielkiser.mathgamesv0.FragmentOOOTarget"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        />
+
+
+    <fragment
+        android:id="@+id/fragment1"
+        android:name="com.example.danielkiser.mathgamesv0.FragmentOOTargetDrag"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        />
+
+    <fragment
+        android:id="@+id/fragment2"
+        android:name="com.example.danielkiser.mathgamesv0.FragmentOOMaxDrag"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        />
+
+    <fragment
+        android:id="@+id/fragment3"
+        android:name="com.example.danielkiser.mathgamesv0.FragmentOptionsForNum2ASMD"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        />
+
+    <fragment
+        android:id="@+id/fragment4"
+        android:name="com.example.danielkiser.mathgamesv0.FragmentGame2"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        />
+
+    <fragment
+        android:id="@+id/fragment5"
+        android:name="com.example.danielkiser.mathgamesv0.FragmentGame3"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        />
+
+
+</LinearLayout>
